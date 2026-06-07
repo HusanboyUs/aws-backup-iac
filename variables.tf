@@ -10,3 +10,6 @@ variable "backup_file_name" {
     error_message = "Bucket name should be more than 5 characters"
   }
 }
+
+variable "do_token" {}
+variable "website_domain" {}
